@@ -13,7 +13,7 @@ Open source hala geliştiriliyor ve devamlı güncellenecektir.
 
 ## Kurulum
 
-###TCMB XML Dosyasını Çekmek
+### TCMB XML Dosyasını Çekmek
 
 TCMB'nın bize sunduğu xml kur sayfasını çekiyoruz.
 
