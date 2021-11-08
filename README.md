@@ -2,6 +2,7 @@
 
 Wajex Finans projesine hoş geldiniz. Bu projede ortalama 5 dakikada bir yenilenen döviz web-sitesi yaptım.
 Bu projenin 2 kısmı var, biri open-source kısmı bunu isteyen herkes kullanabilecek [ikinci kısmı](https://finans.wajex.net) ise API'den çektiğim kısım.
+Hatalar veya geliştirme önerileri için lütfen [issue atın.](https://github.com/timurtul/wajexfinans/issues)
 
 
 
@@ -11,7 +12,7 @@ PHP ile Türkiye Cumhuriyeti Merkez Bankası'ndan verileri alıp, Bootstrap kull
 USD, AUD, DKK, EUR, GBP, CHF, SEK, CAD, KWD, NOK, SAR, JPY kurlarının alış ve satış fiyatlarına direk erişebiliyorsunuz.
 Open source hala geliştiriliyor ve devamlı güncellenecektir.
 
-## Kurulum
+## Kullanımı
 
 ### TCMB XML Dosyasını Çekmek
 
@@ -51,6 +52,15 @@ Bootstrap ile kullandığımız kartlara Alış ve Satış fiyatlarını yazdır
 </div>
 ```
 
+##### Konfigrasyon
+
+
+| Özellik    | Açıklama                                                                                                                                      |
+|------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
+| Card       | [TCMB](https://www.tcmb.gov.tr/wps/wcm/connect/tr/tcmb+tr/main+page+site+area/bugun) üstünden çekilen verileri istediğiniz karta yansıtabilirsiniz  |
+| Width      | px, em , vh, % vb. (min-width: 250px)                                                                                                         |
+| Border-radius       | px, em , vh, % vb. (border-radius: 20px)                                                                                             |
+
 
 # Wajex Finans
 
@@ -58,5 +68,4 @@ Bootstrap ile kullandığımız kartlara Alış ve Satış fiyatlarını yazdır
 ve Open Source projesine göre daha fazla kur içeriyor. Ayriyetten grafiklere erişebiliyorsunuz ve daha şık ve kullanılabilir bir web-siteye erişiyorsunuz.
 
 
-Herhangi bir sorun olursa issue olarak atarsanız sevinirim.
 Proje geliştirilmeye devam ediyor, belki ilerleyen zamanda Wajex Finans kısmı da herkese açık Open-Source olarak gelebilir.
