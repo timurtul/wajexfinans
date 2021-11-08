@@ -18,7 +18,7 @@ Open source hala geliştiriliyor ve devamlı güncellenecektir.
 
 TCMB'nın bize sunduğu xml kur sayfasını çekiyoruz.
 
-```
+```php
 $doviz = simplexml_load_file('https://www.tcmb.gov.tr/kurlar/today.xml');
 ```
 
@@ -27,7 +27,7 @@ $doviz = simplexml_load_file('https://www.tcmb.gov.tr/kurlar/today.xml');
 Her bir kur için Alış ve Satış değişkeni tanımlıyoruz, TCMB xml dosyasında istediğiniz kuru seçip yukarıdan aşağıya doğru sırasını index numarası olarak bulmanız lazım ve Currency[] kısmına sayısını giriyoruz. 
 Mesela Danimarka Kronu'nu çekmek istiyorsunuz ve 3. sırada, Currency[2] oluyor çünkü index numaraları 0'dan başlar. 
 
-```
+```php
 $usd_alis = $doviz ->Currency[0]->BanknoteBuying;
 $usd_satis = $doviz ->Currency[0]->BanknoteSelling;
 $euro_alis = $doviz ->Currency[3]->BanknoteBuying;
@@ -40,7 +40,7 @@ $sterlin_satis = $doviz ->Currency[4]->BanknoteSelling;
 
 Bootstrap ile kullandığımız kartlara Alış ve Satış fiyatlarını yazdırıyoruz.
 
-```
+```html
 <div class="card text-white bg-success mb-3" style="">
   <div class="card-header">Euro €</div>
      <div class="card-body">
