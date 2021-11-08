@@ -52,7 +52,7 @@ Bootstrap ile kullandığımız kartlara Alış ve Satış fiyatlarını yazdır
 </div>
 ```
 
-##### Konfigrasyon
+##### Konfigürasyon
 
 
 | Özellik    | Açıklama                                                                                                                                      |
