@@ -6,7 +6,7 @@ Bu projenin 2 kısmı var, biri open-source kısmı bunu isteyen herkes kullanab
 
 
 # Open Source 
-![](https://img.shields.io/badge/Code-PHP-informational?style=flat&logo=php&logoColor=white&color=blueviolet)
+
 PHP ile Türkiye Cumhuriyeti Merkez Bankası'ndan verileri alıp, Bootstrap kullanarak yaptığım ufak bir web sitesine aktarıyor.
 USD, AUD, DKK, EUR, GBP, CHF, SEK, CAD, KWD, NOK, SAR, JPY kurlarının alış ve satış fiyatlarına direk erişebiliyorsunuz.
 Open source hala geliştiriliyor ve devamlı güncellenecektir.
@@ -17,9 +17,9 @@ Open source hala geliştiriliyor ve devamlı güncellenecektir.
 
 TCMB'nın bize sunduğu xml kur sayfasını çekiyoruz.
 
-'''
+```
 $doviz = simplexml_load_file('https://www.tcmb.gov.tr/kurlar/today.xml');
-'''
+```
 
 ### Kurları Tanımlamak
 
