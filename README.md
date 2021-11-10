@@ -71,6 +71,12 @@ Bootstrap ile kullandığımız kartlara Alış ve Satış fiyatlarını yazdır
 | Width      | px, em , vh, % vb. (min-width: 250px)                                                                                                         |
 | Border-radius       | px, em , vh, % vb. (border-radius: 20px)                                                                                             |
 
+### Front-End Tasarımı
+
+Projenin tasarımını devamlı güncellediğim için projede **frontend** isimli klasörün içinde **index.html** diye bir html dosyası açtım ve html tasarımını PHP içermeden direk oraya yüklüyorum.
+Bunun sebebi ise devamlı back-end yönünde bir geliştirme yapmadığımdan front-end yönünde yaptığımda sizin kolayca güncellemeyi görüp fark etmeniz. 
+O yüzden kurcek.php 'nin front-end tasarımından önce **frontend/index.html* 'in tasarımı güncellenecektir. Oraya bakmanızda fayda olacaktır.
+
 
 # Wajex Finans
 
