@@ -35,6 +35,16 @@ $euro_satis = $doviz ->Currency[3]->BanknoteSelling;
 $sterlin_alis = $doviz ->Currency[4]->BanknoteBuying;
 $sterlin_satis = $doviz ->Currency[4]->BanknoteSelling;
 ```
+##Forex Piyasa'sının Kurlarını Tanımlamak
+
+TCMB bize Banknote ve Forex olarak iki tane parametre sunuyor ve istediğinizi alabilirsiniz. Genelde Banknote kullanıldığı için projemde ben Banknote kullandım.
+Forex piyasasından gelen verileri kullanmak istiyorsanız BanknoteBuying / BanknoteSelling kısımlarını ForexBuying / ForexSelling olarak değiştirmeniz gerekiyor.
+
+```php
+$usd_alis_forex = $doviz ->Currency[0]->ForexBuying;
+$usd_satis_forex = $doviz ->Currency[0]->ForexSelling;
+```
+
 
 ### Fiyatları Yazdıralım
 
