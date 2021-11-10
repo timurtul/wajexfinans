@@ -38,7 +38,7 @@ $sterlin_satis = $doviz ->Currency[4]->BanknoteSelling;
 ### Forex Piyasa'sının Kurlarını Tanımlamak
 
 TCMB bize Banknote ve Forex olarak iki tane parametre sunuyor ve istediğinizi alabilirsiniz. Genelde Banknote kullanıldığı için projemde ben Banknote kullandım.
-Forex piyasasından gelen verileri kullanmak istiyorsanız BanknoteBuying / BanknoteSelling kısımlarını ForexBuying / ForexSelling olarak değiştirmeniz gerekiyor.
+Forex piyasasından gelen verileri kullanmak istiyorsanız **BanknoteBuying / BanknoteSelling** kısımlarını **ForexBuying / ForexSelling** olarak değiştirmeniz gerekiyor.
 
 ```php
 $usd_alis_forex = $doviz ->Currency[0]->ForexBuying;
@@ -75,7 +75,7 @@ Bootstrap ile kullandığımız kartlara Alış ve Satış fiyatlarını yazdır
 
 Projenin tasarımını devamlı güncellediğim için projede **frontend** isimli klasörün içinde **index.html** diye bir html dosyası açtım ve html tasarımını PHP içermeden direk oraya yüklüyorum.
 Bunun sebebi ise devamlı back-end yönünde bir geliştirme yapmadığımdan front-end yönünde yaptığımda sizin kolayca güncellemeyi görüp fark etmeniz. 
-O yüzden kurcek.php 'nin front-end tasarımından önce **frontend/index.html* 'in tasarımı güncellenecektir. Oraya bakmanızda fayda olacaktır.
+O yüzden kurcek.php 'nin front-end tasarımından önce **frontend/index.html**'in tasarımı güncellenecektir. Oraya bakmanızda fayda olacaktır.
 
 
 # Wajex Finans
