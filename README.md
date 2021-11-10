@@ -1,7 +1,7 @@
 # Merhaba 👋
 
-Wajex Finans projesine hoş geldiniz. Bu projede ortalama 5 dakikada bir yenilenen döviz web-sitesi yaptım.
-Bu projenin 2 kısmı var, biri open-source kısmı bunu isteyen herkes kullanabilecek [ikinci kısmı](https://finans.wajex.net) ise API'den çektiğim kısım.
+Wajex Finans projesine hoş geldiniz.
+Bu projenin 2 kısmı var, biri open-source kısmı bunu isteyen herkes kullanabilecek, [ikinci kısmı](https://finans.wajex.net) ise direk Wajex Finans'ın kodları yani API'den çektiğim kısım ve maalesef şu anda Wajex Finans'ı open-source olarak paylaşamıyorum .
 Hatalar veya geliştirme önerileri için lütfen [issue atın.](https://github.com/timurtul/wajexfinans/issues)
 
 
