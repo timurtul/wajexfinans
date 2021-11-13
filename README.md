@@ -85,3 +85,5 @@ ve Open Source projesine göre daha fazla kur içeriyor. Ayriyetten grafiklere e
 
 
 Proje geliştirilmeye devam ediyor, belki ilerleyen zamanda Wajex Finans kısmı da herkese açık Open-Source olarak gelebilir.
+
+>Projemi beğendiyseniz yukarıdan :star: butonuna tıklayıp bana destek olabilirsiniz.
